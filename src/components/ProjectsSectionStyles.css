@@ -1,0 +1,131 @@
+.projects-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 35px auto;
+}
+
+.project-item {
+    margin-top: 60px;
+}
+
+.project-item:first-child {
+    margin-top: 0;
+}
+
+.project-content-image-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--theme-grid-boxes-background);
+}
+
+.project-content-container {
+    width: 55%;
+}
+
+.project-image-container {
+    width: 40%;
+}
+
+.project-content-container div {
+    margin-bottom: 30px;
+}
+
+.project-content-container .project-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--font-color-secondary);
+}
+
+.project-description ul {
+    /* padding-left: 10px; */
+    list-style-type: none;
+}
+
+.project-description ul li {
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+    color: var(--font-color-secondary);
+}
+
+.project-description ul li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--theme-pink);
+}
+
+.project-content-container,
+.project-image-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* .project-tools {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+
+.project-image {
+
+    text-align: center;
+}
+
+.project-image-container .project-image img {
+    width: 400px;
+    height: 200px;
+    border-radius: var(--border-radius-container);
+}
+
+.project-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.project-links a {
+    text-decoration: none;
+    color: var(--theme-pink);
+    font-weight: bold;
+}
+
+.project-tools div {
+    text-decoration: none;
+    color: var(--font-color-secondary);
+}
+
+.project-links img {
+    width: 20px;
+    height: 20px;
+
+}
+
+.more-projects-container {
+    text-align: right;
+}
+
+
+.more-projects-container a {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--theme-pink);
+
+}

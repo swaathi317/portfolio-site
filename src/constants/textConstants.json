@@ -1,0 +1,314 @@
+{
+    "header": {
+        "logo_alt_text": "Logo: S within curly braces",
+        "menu_items": [
+            "home",
+            "portfolio",
+            "experience"
+        ]
+    },
+    "about": {
+        "first_name": "Swaathi",
+        "last_name": "Sundaramurugan",
+        "roles": "Hi there! I'm a Data Engineer and Full-Stack Developer.",
+        "introduction_content": "I love building creative and scalable end-to-end web solutions and data products. Let's collaborate to bring your ideas to life!",
+        "stats": [
+            {
+                "stat_number": "3+",
+                "stat_description": "Years of Experience"
+            },
+            {
+                "stat_number": "10",
+                "stat_description": "Products developed and delivered for Enterprises"
+            }
+        ],
+        "resume_download_link": "https://drive.google.com/file/d/1PkLhSOnFrTH4UR4cW8fMnmvfxcsBX7j7/view?usp=share_link",
+        "download_button_text": "Download Resume"
+    },
+    "social_links": [
+        {
+            "platform_name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/swaathi-sundaramurugan/",
+            "logo_name": "linkedin_logo.svg"
+        },
+        {
+            "platform_name": "GitHub",
+            "link": "https://github.com/swaathi317",
+            "logo_name": "github_logo.svg"
+        },
+        {
+            "platform_name": "Medium",
+            "link": "https://swaathi317.medium.com/",
+            "logo_name": "medium_logo.svg"
+        },
+        {
+            "platform_name": "Mail",
+            "link": "mailto:swaathi317@gmail.com",
+            "logo_name": "mail.svg"
+        }
+    ],
+    "skills": {
+        "section_title": "Skills",
+        "skills_description": "As a flexible technologist, I bring a special viewpoint to developing end-to-end solutions for challenging issues. I have a background in software engineering and a strong grasp of creating web applications with modern frameworks like React and Node.js. Additionally, I have experience designing and constructing cloud data pipelines, which convert raw data into actionable insights by integrating diverse data sources and formats. I have developed and improved many schemas for both SQL and NoSQL databases.  I have also worked with data warehousing tools like Amazon Redshift and Google BigQuery. I thrive as a committed problem solver when I can connect business and technology to produce significant results.",
+        "skills_content": [
+            {
+                "skill_name": "Big Data",
+                "skill_tools": [
+                    "Python",
+                    "JAVA",
+                    "Hadoop",
+                    "Spark",
+                    "Kafka",
+                    "Cassandra DB"
+                ]
+            },
+            {
+                "skill_name": "Data Pipelines on Google Cloud Platform",
+                "skill_tools": [
+                    "Dataflow",
+                    "BigQuery",
+                    "Cloud Composer",
+                    "Cloud Storage"
+                ]
+            },
+            {
+                "skill_name": "Data Pipelines on Amazon Web Services",
+                "skill_tools": [
+                    "Elastic MapReduce",
+                    "Redshift",
+                    "DynamoDB",
+                    "S3"
+                ]
+            },
+            {
+                "skill_name": "Business Intelligence Analytics",
+                "skill_tools": [
+                    "Tableau",
+                    "Power BI",
+                    "Exasol"
+                ]
+            },
+            {
+                "skill_name": "Full Stack development",
+                "skill_tools": [
+                    "React",
+                    "Node.js",
+                    "JavaScript",
+                    "HTML",
+                    "CSS"
+                ]
+            }
+        ],
+        "badges": [
+            {
+                "badge_name": "Google Cloud Digital Leader",
+                "badge_image_link": "google_cloud_digital_leader.png",
+                "badge_external_link": "https://www.credential.net/7ceb86d4-87d8-4398-898d-3a9187063bbb"
+            },
+            {
+                "badge_name": "Apache Cassandra 3 Developer Associate",
+                "badge_image_link": "Apache-Cassandra-Developer-Associate-Certification-Badge.png",
+                "badge_external_link": "https://certification.mettl.com/datastax/applicant/verify-certification-with-qr?email=swaathi317%40gmail.com&assessment=Apache%20Cassandra%203%20Developer%20Associate%20Certification&date=Nov%2014,%202021"
+            }
+        ]
+    },
+    "experience": {
+        "section_title": "Experience",
+        "experience_details": [
+            {
+                "job_id": "0",
+                "job_name": "Data Engineer Intern",
+                "company_name": "Cittabase Solutions",
+                "job_duration": "May 2022 - December 2022",
+                "job_description": [
+                    "Developed cloud data pipelines for campaign analysis using Dataflow, BigQuery, and Cloud Storage to perform ETL operations on structured and semi-structured data from various data sources like Hubspot and LinkedIn Navigator.",
+                    "Automated data pipelines utilizing Cloud Composer (Apache Airflow).",
+                    "Designed, analyzed, and published BI Analytics Dashboards with Exasol, Tableau, and Power BI."
+                ],
+                "keywords_to_highlight": [
+                    "Dataflow",
+                    "BigQuery",
+                    "Cloud",
+                    "Storage",
+                    "Cloud",
+                    "Composer",
+                    "Exasol",
+                    "Tableau",
+                    "Power",
+                    "BI"
+                ]
+            },
+            {
+                "job_id": "1",
+                "job_name": "Technology Consultant (Freelance)",
+                "company_name": "Factually Health",
+                "job_duration": "February 2022 - May 2022",
+                "job_description": [
+                    "Designed UI, workflows, and dashboards for an AI-based Health product using Figma.",
+                    "Developed customizable UI components with React framework and deployed front-end on AWS.",
+                    "Managed data collection for the corpus through web scraping."
+                ],
+                "keywords_to_highlight": [
+                    "React",
+                    "AWS",
+                    "Figma"
+                ]
+            },
+            {
+                "job_id": "2",
+                "job_name": "Software Engineer",
+                "company_name": "Traform Inc",
+                "job_duration": "August 2020 - February 2021",
+                "job_description": [
+                    "Coordinated and analyzed application requirements with the Product Management and Visual Design team to ensure a smooth user experience and to satisfy business requisite.",
+                    "Built customizable React components and developed React-Redux and React-Saga workflows for a product that facilitated Business Travel.",
+                    "Optimized components and troubleshot the application to improve functionality recursively."
+                ],
+                "keywords_to_highlight": [
+                    "React",
+                    "React-Redux",
+                    "React-Saga"
+                ]
+            },
+            {
+                "job_id": "3",
+                "job_name": "Associate Consultant",
+                "company_name": "Sirius Computer Solutions",
+                "job_duration": "June 2018 - January 2020",
+                "job_description": [
+                    "Brainstormed and analyzed requirements from clients and organized work processes with the team.",
+                    "Developed RESTful APIs and components for MVC framework-based applications using Node.js.",
+                    "Researched and integrated Workplace(Facebook) and Slack with an idea management application to collect real-time data and send a real-time response using bots.",
+                    "Designed and constructed schemas and models for MongoDB collections.",
+                    "Developed event-driven serverless services with Azure Functions and integrated them with Redis and Cosmos DB using triggers and bindings."
+                ],
+                "keywords_to_highlight": [
+                    "Node.js",
+                    "MongoDB",
+                    "Redis",
+                    "Azure",
+                    "Functions",
+                    "Cosmos",
+                    "DB"
+                ]
+            },
+            {
+                "job_id": "4",
+                "job_name": "Developer Intern",
+                "company_name": "Sirius Computer Solutions",
+                "job_duration": "January 2018 - April 2018",
+                "job_description": [
+                    "Developed an audit tool to track assets, and manage inventory and appointments for the firm using HTML, SASS, jQuery, AJAX, and Spring frameworks."
+                ],
+                "keywords_to_highlight": [
+                    "HTML",
+                    "SASS",
+                    "jQuery",
+                    "AJAX",
+                    "Spring"
+                ]
+            }
+        ]
+    },
+    "projects": {
+        "section_title": "Portfolio Projects",
+        "more_projects_link": "https://github.com/swaathi317",
+        "project_content": [
+            {
+                "project_name": "EduQuest, A donor recommender platform for Non-profits",
+                "tools_used": [
+                    "React",
+                    "Node.js",
+                    "HTML",
+                    "CSS",
+                    "Figma (for designing UI/UX)"
+                ],
+                "project_image_link": "eduquest.png",
+                "project_github_link": "https://github.com/swaathi317/donor-finder",
+                "project_demo_link": "https://eduquest.cyclic.app/",
+                "project_description": [
+                    "The EduQuest app recommends Canadian donors who are more likely to support educational nonprofits by making donations.",
+                    "The recommendation is based on the insights I gained through analyzing 83,528 records of donations from the Charity data site.",
+                    "To identify the most qualified donation candidates, the app gathers information about the user (non-profit organization), including its name, location, focus or vision, and number of full-time employees."
+                ]
+            },
+            {
+                "project_name": "Metacent, an end-to-end data product for NFT investments",
+                "tools_used": [
+                    "Python",
+                    "HDFS",
+                    "Spark",
+                    "Dynamo DB",
+                    "React",
+                    "Node.js"
+                ],
+                "project_image_link": "metacent_2.png",
+                "project_github_link": "https://github.com/swaathi317/metacent-rarity",
+                "project_demo_link": "https://metacent.cyclic.app/collections/",
+                "project_description": [
+                    "NFTs are a booming market and many investors are struggling to navigate the market to invest in valuable NFTs. Metacent, the end-to-end data product facilitates the investors and the NFT creators to make better NFT investments.",
+                    "It provides curated statistical analysis on transactional performance of a collection through transaction mapping, and ranks each NFT of a collection based on Rarity. ",
+                    "The platform also establishes the relationship between the rarity and price of an NFT in addition to providing a price evaluation for each NFT based on comparing three different machine learning models"
+                ]
+            },
+            {
+                "project_name": "Data Pipeline to Web-Scrape Donation Records",
+                "tools_used": [
+                    "Python",
+                    "Selenium",
+                    "BeautifulSoup",
+                    "Pandas"
+                ],
+                "project_image_link": "donor_datapipeline.png",
+                "project_github_link": "https://github.com/swaathi317/data-pipeline-to-extract-donation-records",
+                "project_demo_link": "https://eduquest.cyclic.app/",
+                "project_description": [
+                    "A Python data pipeline that can be used to extract donation records from Charity Data (Canada) site through web-scrapping",
+                    "The site provides information on registered charities as disclosed by those charities in their T3010 annual return. It has records of 83,991 registered charities in Canada. It also has the information about donations made between charities.",
+                    "Analyzing these donations data has many benefits. Hence, a batch pipeline is built to fetch the donations and charity data from charitydata.ca by web-scrapping and further processing."
+                ]
+            }
+        ]
+    },
+    "blogs": {
+        "section_title": "Popular Blogs",
+        "more_blogs_link": "",
+        "blog_posts": [
+            {
+                "blog_image_link": "blog_1.png",
+                "blog_title": "Five Golden Rules for Cleaning Data in Power BI",
+                "blog_description": "The article discusses the importance of data cleaning and transformation in Power BI in order to improve query performance and save Power BI's internal memory space. It goes over the five golden rules for efficiently cleaning data in Power BI.",
+                "blog_link": "https://medium.com/@swaathi317/five-golden-rules-for-cleaning-data-in-power-bi-a50ed37dda54"
+            },
+            {
+                "blog_image_link": "blog_2.png",
+                "blog_title": "Cracking The YouTube Algorithm",
+                "blog_description": "This article explains how YouTube's recommendation system works. It describes the general recommendation system overview, the recommendation system architecture, and the factors that YouTube optimizes in reliance on the attributes of watch history, search history, demographic features, and channels.",
+                "blog_link": "https://medium.com/sfu-cspmp/are-you-a-mind-reader-youtube-bca5ee5ed3d0"
+            },
+            {
+                "blog_image_link": "blog_3.png",
+                "blog_title": "Big Data - An Introduction",
+                "blog_description": "This article provides a comprehensive introduction to big data, its definition, applications, and the need for big data technologies. It also covers the different forms of big data and the criteria for determining if a firm requires big data technologies to address its problems.",
+                "blog_link": "https://medium.com/analytics-vidhya/big-data-an-introduction-b7bc048081c9"
+            }
+        ]
+    },
+    "recommendations": {
+        "section_title": "Recommendations",
+        "recommendation_content": [
+            {
+                "recommendation_content": "I had the pleasure of working with Swaathi and supervising her work. She designed and developed the front end for our demos (UI) and mock-ups of our analytical dashboard. She did excellent work, gave appropriate estimates on time, was capable of independent work, yet knew when to ask questions. She was very easy and pleasant to worth with and happily re-adjusted when work or the team required it. Plus she was very reliable on delivery time and quality! I would definitely recommend her to other teams and future employers.",
+                "giver_name": "Lina Forcier",
+                "giver_role": "CEO & Co-Founder",
+                "given_company": "Factually Health"
+            },
+            {
+                "recommendation_content": "Swaathi has exceptional skills in UI development with HTML, CSS, Javascript and Node JS. She is extremely committed and passionate about learning new technologies. I had worked with her in a couple of projects and besides her excellent work on UI development and Full Stack JS, she also has insights and proposals on improving the user experiences of the product. It was definitely my pleasure to work with Swaathi for a short span of time. She is definitely a great asset to any team.",
+                "giver_name": "Nijin Vinodan",
+                "giver_role": "Practice Lead - Software Engineering",
+                "given_company": "Sirius Computer Solutions"
+            }
+        ]
+    }
+}

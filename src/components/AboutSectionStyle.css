@@ -1,0 +1,114 @@
+.about-wrapper,
+.stat-download-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-content-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+}
+
+.about-content-container .name-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.about-content-container div {
+    margin-bottom: 15px;
+}
+
+.about-content-container .position-container {
+    font-size: 20px;
+    color: var(--theme-pink);
+    font-weight: bold;
+}
+
+.about-content-container .introduction-container {
+    font-size: 20px;
+    color: var(--font-color-secondary);
+}
+
+
+.about-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 40%;
+    text-align: center;
+}
+
+.about-image-container .image-square {
+    position: relative;
+    width: var(--profile-image-width);
+    height: var(--profile-image-height);
+    border: 2px solid var(--theme-pink);
+    border-radius: var(--border-radius-container);
+}
+
+.about-image-container img {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: var(--profile-image-width);
+    height: var(--profile-image-height);
+    border-radius: var(--border-radius-container);
+}
+
+.stat-container {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 60%;
+    justify-content: center;
+    /* flex-wrap: wrap; add it later in mobile*/
+    margin-top: 30px;
+}
+
+.stat-container .stat-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.stat-number {
+    font-size: 35px;
+    color: var(--theme-pink);
+    font-weight: bold;
+}
+
+.stat-description {
+    flex-basis: 50%;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.download-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 40%;
+    text-align: center;
+}
+
+.download-container a {
+    text-decoration: none;
+}
+
+.download-container .download-button {
+    display: flex;
+    width: 190px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--theme-pink);
+    border-radius: var(--border-radius-container);
+    cursor: pointer;
+}
