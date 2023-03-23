@@ -20,7 +20,7 @@ const Header = (props) => {
         <div id="header-wrapper">
             <div className="header-container">
                 <div className="logo-container">
-                    <img src={logo} alt={CONSTANTS.header.logo_alt_text} />
+                    <Link to="/home">  <img src={logo} alt={CONSTANTS.header.logo_alt_text} /> </Link>
                 </div>
                 {screenWidth >= 850 &&
                     <div className="menu-container">
