@@ -1,6 +1,5 @@
 import React from 'react';
 import CONSTANTS from '../constants/textConstants.json';
-
 import './SkillsSectionStyles.css';
 
 const SkillsSection = () => {
@@ -12,55 +11,37 @@ const SkillsSection = () => {
                 <div className="section-header">
                     {CONSTANTS.skills.section_title}
                 </div>
-                <div className="skills-badge-wrapper">
-                    <div className="skills-description-badges">
-                        <div className="skills-description">
+                <div className="skills-wrapper">
+                    {
+                        CONSTANTS.skills.skills_content.map((skillItem, index) => (
+                            <div className="skill-container">
+                                <div className="skill-icon-container">
+                                    <div className="skill-circle">
+                                        <div className="skill-icon">
+                                            <img src={require("../assets/icons/" + skillItem.skill_icon)} alt={skillItem.skill_name} />
 
-                            {CONSTANTS.skills.skills_description}
-                        </div>
-
-                        <div className="badges-wrapper">
-
-                            {CONSTANTS.skills.badges.map((badgeItem) => (
-                                <div className="badge-container">
-                                    <a href={badgeItem.badge_external_link} _target="_blank" >
-                                        <div className="badge-image-container">
-                                            <img src={require("../assets/images/" + badgeItem.badge_image_link)} alt={badgeItem.badge_name} />
                                         </div>
-                                        <div className="badge-name-container">
-                                            {badgeItem.badge_name}
-                                        </div>
-                                    </a>
+
+                                    </div>
+
                                 </div>
-                            ))
-
-                            }
-
-
-
-                        </div>
-
-
-                    </div>
-                    <div className="skills-wrapper">
-                        {CONSTANTS.skills.skills_content.map((skillItem) => (
-                            <div className="skill-item">
-                                <div className="skill-title">
-                                    {skillItem.skill_name}
+                                <div className="skill-name">{skillItem.skill_name}</div>
+                                <div className="skill-content-container">
+                                    {skillItem.skill_description}
                                 </div>
-                                <div className="skill-tools">
+                                <div className="skill-tools-container">
                                     {
-                                        skillItem.skill_tools.map((skillToolItem) => (
-                                            <div className="skill-tool-item">
-                                                {skillToolItem}
+                                        skillItem.skill_tools.map((skillTools, index) => (
+                                            <div className='tool-name'>
+                                                {skillTools}
                                             </div>
                                         ))
                                     }
                                 </div>
                             </div>
-                        ))}
+                        ))
+                    }
 
-                    </div>
 
 
                 </div>

@@ -49,53 +49,40 @@
     ],
     "skills": {
         "section_title": "Skills",
-        "skills_description": "As a flexible technologist, I bring a special viewpoint to developing end-to-end solutions for challenging issues. I have a background in software engineering and a strong grasp of creating web applications with modern frameworks like React and Node.js. Additionally, I have experience designing and constructing cloud data pipelines, which convert raw data into actionable insights by integrating diverse data sources and formats. I have developed and improved many schemas for both SQL and NoSQL databases.  I have also worked with data warehousing tools like Amazon Redshift and Google BigQuery. I thrive as a committed problem solver when I can connect business and technology to produce significant results.",
         "skills_content": [
             {
-                "skill_name": "Big Data",
+                "skill_name": "Data Engineering",
+                "skill_description": "I build and maintain data pipelines to ensure efficient data processing and storage for batch and streaming data sources. I also design and analyze BI analytical dashboards to enable stakeholders to make data-driven decisions.",
+                "skill_icon": "dataeng.png",
                 "skill_tools": [
                     "Python",
                     "JAVA",
                     "Hadoop",
                     "Spark",
                     "Kafka",
-                    "Cassandra DB"
-                ]
-            },
-            {
-                "skill_name": "Data Pipelines on Google Cloud Platform",
-                "skill_tools": [
-                    "Dataflow",
                     "BigQuery",
+                    "Dataflow",
                     "Cloud Composer",
-                    "Cloud Storage"
-                ]
-            },
-            {
-                "skill_name": "Data Pipelines on Amazon Web Services",
-                "skill_tools": [
-                    "Elastic MapReduce",
-                    "Redshift",
+                    "Cloud Storage",
+                    "Cassandra DB",
                     "DynamoDB",
-                    "S3"
-                ]
-            },
-            {
-                "skill_name": "Business Intelligence Analytics",
-                "skill_tools": [
                     "Tableau",
-                    "Power BI",
-                    "Exasol"
+                    "Power BI"
                 ]
             },
             {
-                "skill_name": "Full Stack development",
+                "skill_name": "Full Stack Development",
+                "skill_description": "I design and develop scalable end-to-end web applications that deliver a seamless user experience to end users. I model data to enable efficient data storage and retrieval for various structured and non-structured databases. I also collaborate with cross-functional teams and take ownership of the product I develop.",
+                "skill_icon": "fullstackdev.png",
                 "skill_tools": [
+                    "JavaScript",
                     "React",
                     "Node.js",
-                    "JavaScript",
                     "HTML",
-                    "CSS"
+                    "CSS",
+                    "Mongo DB",
+                    "MySQL",
+                    "Redis"
                 ]
             }
         ],
