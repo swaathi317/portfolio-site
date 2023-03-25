@@ -242,7 +242,7 @@
                     "React",
                     "Node.js"
                 ],
-                "project_image_link": "metacent_2.png",
+                "project_image_link": "metacent.png",
                 "project_github_link": "https://github.com/swaathi317/metacent-rarity",
                 "project_demo_link": "https://metacent.cyclic.app/collections/",
                 "project_description": [
@@ -259,13 +259,30 @@
                     "BeautifulSoup",
                     "Pandas"
                 ],
-                "project_image_link": "donor_datapipeline.png",
+                "project_image_link": "eduquest_pipeline.png",
                 "project_github_link": "https://github.com/swaathi317/data-pipeline-to-extract-donation-records",
                 "project_demo_link": "https://eduquest.cyclic.app/",
                 "project_description": [
                     "A Python data pipeline that can be used to extract donation records from Charity Data (Canada) site through web-scrapping",
                     "The site provides information on registered charities as disclosed by those charities in their T3010 annual return. It has records of 83,991 registered charities in Canada. It also has the information about donations made between charities.",
                     "Analyzing these donations data has many benefits. Hence, a batch pipeline is built to fetch the donations and charity data from charitydata.ca by web-scrapping and further processing."
+                ]
+            },
+            {
+                "project_name": "Adolescent Birth Rate - An Analysis",
+                "tools_used": [
+                    "Python",
+                    "Pandas",
+                    "NumPy",
+                    "Matplotlib"
+                ],
+                "project_image_link": "adolescent_analysis.png",
+                "project_demo_link": "",
+                "project_github_link": "https://github.com/swaathi317/adolescent-birth-rate-analysis",
+                "project_description": [
+                    "Adolescent Birth Rate (ABR) is a measure of number of live births among girls of the age group 15-19 years and is calculated per 1000 women, in a definite time period.",
+                    "To understand the role of social and economic factors that contribute to increasing ABR, various factors such as Average marriage age, Human Development Index(HDI), Gross National Income per capita, Expected years of schooling, and Abortion legality were analyzed.",
+                    "The project defines several hypotheses and subsequently collects data from various sources to test and verify their validity. The aim of the project is to provide conclusive answers to these hypotheses through systematic analysis."
                 ]
             }
         ]

@@ -42,9 +42,13 @@ const ProjectsSection = () => {
                                         <img src={require("../assets/images/" + projectItem.project_image_link)} alt={projectItem.project_name} />
                                     </div>
                                     <div className="project-links">
-                                        <div className="demo-link">
-                                            <a href={projectItem.project_demo_link} target="_blank" > <img src={linkIcon} alt="Demo link icon" /> Demo </a>
-                                        </div>
+                                        {
+                                            projectItem.project_demo_link.length > 0 &&
+                                            <div className="demo-link">
+                                                <a href={projectItem.project_demo_link} target="_blank" > <img src={linkIcon} alt="Demo link icon" /> Demo </a>
+                                            </div>
+                                        }
+
                                         <div className="code-link">
                                             <a href={projectItem.project_github_link} target="_blank"> <img src={githubIcon} alt="Github link icon" /> Code </a>
                                         </div>

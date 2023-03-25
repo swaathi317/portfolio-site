@@ -88,8 +88,8 @@
 
 .project-image-container .project-image img {
     width: 400px;
-    height: 200px;
-    border-radius: var(--border-radius-container);
+    height: 250px;
+    border-radius: 12px;
 }
 
 .project-links {
@@ -122,7 +122,8 @@
 
 }
 
-.project-links .code-link {
+.project-links .code-link,
+.project-links .demo-link {
     font-size: 18px;
 }
 
